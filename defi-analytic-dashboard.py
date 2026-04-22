@@ -26,11 +26,23 @@ TERMINAL_FAILURE_STATES = {
 QUERY_GROUPS: list[dict[str, str]] = [
     # DEF1
     {
-        #"6750819": "dune.dt_team.result_main_query_misha_contract_part_1",
-        #"6540846": "dune.dt_team.result_main_query_misha_contract",
+        "6750819": "dune.dt_team.result_main_query_misha_contract_part_1",
+        "6540846": "dune.dt_team.result_main_query_misha_contract",
         "6631964": "dune.dt_team.result_main_solana_query_misha_wallet",
         "6793626": "dune.dt_team.result_main_solana_query_misha_wallet_part_2",
         "6614359": "dune.dt_team.result_matching_query_misha",
+    },
+    # FCC
+    {
+        "6958092": "dune.dt_team.result_evm_query_fcc_contract_part_1",
+        "6968761": "dune.dt_team.result_solana_query_fcc_wallet_part_1",
+        "6969192": "dune.dt_team.result_evm_query_fcc_contract_part_2",
+    },
+    # 70C
+    {
+        "6972746": "dune.dt_team.result_solana_query_70c_wallet_part_1",
+        "6972233": "dune.dt_team.result_evm_query_70c_wallet_part_1",
+        "6973378": "dune.dt_team.result_70c_matching_query",
     },
 ]
 
