@@ -37,6 +37,7 @@ QUERY_GROUPS: list[dict[str, str]] = [
         "6958092": "dune.dt_team.result_evm_query_fcc_contract_part_1",
         "6968761": "dune.dt_team.result_solana_query_fcc_wallet_part_1",
         "6969192": "dune.dt_team.result_evm_query_fcc_contract_part_2",
+        "6969436": "dune.dt_team.result_fcc_matching_query",
     },
     # 70C
     {
